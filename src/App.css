@@ -1,21 +1,43 @@
 .App {
-background-image: url("./bil.jpg");
-background-size: cover;
-background-position: center;
-height: 100vh;
-width: 80%;
-margin: 0em 9em;
+  background-image: url("./bil.jpg");
+  width: 2592px;
+  height: 1944px;
+  cursor: move; /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
 }
 
-body{
- background-color: #b5131b
+.App:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
 }
 
 .lucka{
-    height: 30px;
-    width: 40px;
-    background-color: transparent;
-    border-color: #b5131b;
-    font-size: 14px;
-    font-weight: 900;
+  font-family: Pacifico;
+  height: 150px;
+  width: 150px;
+  background-color: transparent;
+  font-size: 60px;
+  font-weight: normal;
+  cursor: pointer;
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  color: #fff;
+  line-height: 100%;
+}
+
+.lucka div {
+  margin-top: -10px;
+}
+
+.ReactModal__Content {
+  opacity: 0;
+  text-align: center;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open {
+  transition: opacity 0.1s ease-out, transform 0.5 cubic-bezier(0.23, 1, 0.32, 1);
+  opacity: 1;
 }

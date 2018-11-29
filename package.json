@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "dragscroll": "0.0.8",
+    "particles.js": "^2.0.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-modal": "2.2.2",
