@@ -5,7 +5,8 @@ import LuckaModal from './LuckaModal'
 class Lucka extends Component {
 
   state = { 
-    dagensLucka: undefined
+    dagensLucka: undefined,
+    flipped: this.props.number < new Date().getDate()
   }
 
   showModal = () => {
@@ -26,10 +27,19 @@ class Lucka extends Component {
   }
 
   render() {
+    console.log(this.props.number, new Date().getDate())
+    console.log(this.state.flipped)
+    let luckaClasses = 'lucka'
+    if (this.state.flipped) {
+      luckaClasses = luckaClasses.concat(' flipped')
+    }
 
     return (
       <div>
-        <button style={{ position: 'absolute', top: this.props.y, left: this.props.x}} className="lucka" onClick={this.showModal}>
+        <button 
+          style={{ position: 'absolute', top: this.props.y, left: this.props.x}}
+          className={luckaClasses}
+          onClick={this.showModal}>
           <div>{this.props.number}</div>
         </button>
         <LuckaModal 

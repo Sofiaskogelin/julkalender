@@ -32,12 +32,47 @@
   margin-top: -10px;
 }
 
+.flipped {
+  background: green;
+}
+
 .ReactModal__Content {
-  opacity: 0;
   text-align: center;
 }
 
 .ReactModal__Content.ReactModal__Content--after-open {
-  transition: opacity 0.1s ease-out, transform 0.5 cubic-bezier(0.23, 1, 0.32, 1);
-  opacity: 1;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0) translateX(-50%);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0) translateX(-50%);
+    transform: translate3d(0, 0, 0) translateX(-50%);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0) translateX(-50%);
+    transform: translate3d(0, 100%, 0) translateX(-50%);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0) translateX(-50%);
+    transform: translate3d(0, 0, 0) translateX(-50%);
+  }
 }
