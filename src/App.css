@@ -48,6 +48,7 @@
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  min-width: 375px;
 }
 
 @-webkit-keyframes fadeInUp {
