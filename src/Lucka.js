@@ -16,7 +16,8 @@ class Lucka extends Component {
       return 
 
     this.setState({ 
-      dagensLucka: true 
+      dagensLucka: true,
+      flipped: true
     });
   }
 
@@ -28,14 +29,28 @@ class Lucka extends Component {
 
   render() {
     let luckaClasses = 'lucka'
+    let luckaStyles = {
+      position: 'absolute',
+      top: this.props.y,
+      left: this.props.x,
+    }
+
     if (this.state.flipped) {
       luckaClasses = luckaClasses.concat(' flipped')
+      luckaStyles = {
+        ...luckaStyles,
+        backgroundImage: `url(${this.props.flippedBg})`,
+        backgroundSize: 'cover',
+        border: 'none'
+      }
     }
+
+    console.log(luckaStyles)
 
     return (
       <div>
         <button 
-          style={{ position: 'absolute', top: this.props.y, left: this.props.x}}
+          style={luckaStyles}
           className={luckaClasses}
           onClick={this.showModal}>
           <div>{omitNum.includes(this.props.number) ? '' : this.props.number}</div>

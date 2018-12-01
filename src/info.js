@@ -4,7 +4,7 @@ export default [
     y: "174px", 
     text: "Hjärtligt välkomna till Skogelins julkalender 2018!",
     media: "https://www.youtube.com/embed/hJlQ6o623NI",
-    flippedBg: ""
+    flippedBg: "https://ugc-01.cafemomstatic.com/gen/constrain/500/500/80/2010/12/22/13/90/sc/polghtyqskvzcr.jpg"
   },
   {
     x: "1849px",

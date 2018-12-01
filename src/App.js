@@ -20,6 +20,7 @@ class App extends Component {
             y={luckaInfo.y}
             text={luckaInfo.text}
             number={index + 1}
+            flippedBg={luckaInfo.flippedBg}
             media={luckaInfo.media} />
         })}
         </div>
