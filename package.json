@@ -28,5 +28,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://github.com/jskogelin/julkalender"
+  "homepage": "https://jskogelin.github.io/julkalender/"
 }
