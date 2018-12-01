@@ -1,14 +1,14 @@
 {
-  "main.css": "/julkalender/static/css/main.0f7300d6.chunk.css",
-  "main.js": "/julkalender/static/js/main.241957a5.chunk.js",
-  "main.js.map": "/julkalender/static/js/main.241957a5.chunk.js.map",
+  "main.css": "/julkalender/static/css/main.fcd4d21c.chunk.css",
+  "main.js": "/julkalender/static/js/main.84ed1fc5.chunk.js",
+  "main.js.map": "/julkalender/static/js/main.84ed1fc5.chunk.js.map",
   "static/js/1.2aa3550c.chunk.js": "/julkalender/static/js/1.2aa3550c.chunk.js",
   "static/js/1.2aa3550c.chunk.js.map": "/julkalender/static/js/1.2aa3550c.chunk.js.map",
   "runtime~main.js": "/julkalender/static/js/runtime~main.b858b702.js",
   "runtime~main.js.map": "/julkalender/static/js/runtime~main.b858b702.js.map",
   "static/media/App.css": "/julkalender/static/media/bil.8583053f.jpg",
-  "static/css/main.0f7300d6.chunk.css.map": "/julkalender/static/css/main.0f7300d6.chunk.css.map",
+  "static/css/main.fcd4d21c.chunk.css.map": "/julkalender/static/css/main.fcd4d21c.chunk.css.map",
   "index.html": "/julkalender/index.html",
-  "precache-manifest.59f4569152c5d03511ffbd8c39506b96.js": "/julkalender/precache-manifest.59f4569152c5d03511ffbd8c39506b96.js",
+  "precache-manifest.c4e67f1ca5a932badcc29363fcb912d9.js": "/julkalender/precache-manifest.c4e67f1ca5a932badcc29363fcb912d9.js",
   "service-worker.js": "/julkalender/service-worker.js"
 }
