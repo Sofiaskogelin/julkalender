@@ -1,134 +1,140 @@
 export default [
   {
-    x: "40px",
-    y: "600px", 
+    x: "851px",
+    y: "174px", 
     text: "Hjärtligt välkomna till Skogelins julkalender 2018!",
     media: "https://www.youtube.com/embed/hJlQ6o623NI",
     flippedBg: ""
   },
   {
-    x: "2000px",
-    y: "1347px", 
+    x: "1849px",
+    y: "1351px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
   {
-    x: "1980px",
-    y: "1080px", 
+    x: "1934px",
+    y: "1686px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
   {
-    x: "300px",
-    y: "1221px", 
+    x: "-40px",
+    y: "209px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
   {
-    x: "271px",
-    y: "801px", 
+    x: "247px",
+    y: "926px", 
+    text: "nu är det jul igen",
+    media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
+  },
+  // 6
+  {
+    x: "2080px",
+    y: "105px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
   {
-    x: "900px",
-    y: "452px", 
+    x: "2106px",
+    y: "715px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
-  {
-    x: "789px",
-    y: "1029px", 
-    text: "nu är det jul igen",
-    media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
-  },
+  // 8
   {
     x: "480px",
-    y: "642px", 
+    y: "588px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
   {
-    x: "150px",
-    y: "150px", 
+    x: "444px",
+    y: "79px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
   {
-    x: "760px",
-    y: "905px", 
+    x: "729px",
+    y: "1681px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
   {
     x: "1659px",
-    y: "875px", 
+    y: "1133px", 
+    text: "nu är det jul igen",
+    media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
+  },
+  {
+    x: "2080px",
+    y: "1688px", 
+    text: "nu är det jul igen",
+    media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
+  },
+  // 13
+  {
+    x: "1300px",
+    y: "1133px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
   {
     x: "2200px",
-    y: "80px", 
+    y: "1144px", 
+    text: "nu är det jul igen",
+    media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
+  },
+  // 15
+  {
+    x: "1297px",
+    y: "1356px", 
+    text: "nu är det jul igen",
+    media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
+  },
+  // 16
+  {
+    x: "739px",
+    y: "1369px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
   {
-    x: "1700px",
-    y: "1346px", 
-    text: "nu är det jul igen",
-    media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
-  },
-  {
-    x: "320px",
-    y: "1023px", 
-    text: "nu är det jul igen",
-    media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
-  },
-  {
-    x: "1200px",
-    y: "1345px", 
-    text: "nu är det jul igen",
-    media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
-  },
-  {
-    x: "827px",
-    y: "1412px", 
-    text: "nu är det jul igen",
-    media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
-  },
-  {
-    x: "1412px",
+    x: "1380px",
     y: "123px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
   {
-    x: "1515px",
-    y: "909px", 
+    x: "1557px",
+    y: "440px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
   {
-    x: "2091px",
-    y: "500px", 
+    x: "2227px",
+    y: "1688px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
   {
-    x: "1414px",
-    y: "2px", 
+    x: "1874px",
+    y: "653px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
   {
-    x: "1041px",
-    y: "142px", 
+    x: "213px",
+    y: "1651px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
+  // 22
   {
-    x: "1414px",
-    y: "702px", 
+    x: "664px",
+    y: "642px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
@@ -139,8 +145,8 @@ export default [
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   },
   {
-    x: "2310px",
-    y: "900px", 
+    x: "1279px",
+    y: "702px", 
     text: "nu är det jul igen",
     media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
   }
