@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LuckaModal from './LuckaModal'
 
+const omitNum = [12, 19, 4]
 
 class Lucka extends Component {
 
@@ -37,7 +38,7 @@ class Lucka extends Component {
           style={{ position: 'absolute', top: this.props.y, left: this.props.x}}
           className={luckaClasses}
           onClick={this.showModal}>
-          <div>{this.props.number}</div>
+          <div>{omitNum.includes(this.props.number) ? '' : this.props.number}</div>
         </button>
         <LuckaModal 
           text={this.props.text}
