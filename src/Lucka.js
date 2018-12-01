@@ -10,11 +10,10 @@ class Lucka extends Component {
   }
 
   showModal = () => {
-    var date = new Date()
-    var today= date;
-
-    if(today === this.props.number || today < this.props.number)
+    const today = new Date().getDate()
+    if(this.props.number > today)
       return 
+
     this.setState({ 
       dagensLucka: true 
     });
@@ -27,8 +26,6 @@ class Lucka extends Component {
   }
 
   render() {
-    console.log(this.props.number, new Date().getDate())
-    console.log(this.state.flipped)
     let luckaClasses = 'lucka'
     if (this.state.flipped) {
       luckaClasses = luckaClasses.concat(' flipped')
