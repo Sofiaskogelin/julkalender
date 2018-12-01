@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jskogelin/julkalender/precache-manifest.a19ea1ebdb8d0eec867dcffe700f2368.js"
+  "/julkalender/precache-manifest.59f4569152c5d03511ffbd8c39506b96.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/jskogelin/julkalender/index.html", {
+workbox.routing.registerNavigationRoute("/julkalender/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

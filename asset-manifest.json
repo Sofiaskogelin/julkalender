@@ -1,14 +1,14 @@
 {
-  "main.css": "/jskogelin/julkalender/static/css/main.3c61ee4f.chunk.css",
-  "main.js": "/jskogelin/julkalender/static/js/main.ae32d4d2.chunk.js",
-  "main.js.map": "/jskogelin/julkalender/static/js/main.ae32d4d2.chunk.js.map",
-  "static/js/1.2aa3550c.chunk.js": "/jskogelin/julkalender/static/js/1.2aa3550c.chunk.js",
-  "static/js/1.2aa3550c.chunk.js.map": "/jskogelin/julkalender/static/js/1.2aa3550c.chunk.js.map",
-  "runtime~main.js": "/jskogelin/julkalender/static/js/runtime~main.fd3cd1bb.js",
-  "runtime~main.js.map": "/jskogelin/julkalender/static/js/runtime~main.fd3cd1bb.js.map",
-  "static/media/App.css": "/jskogelin/julkalender/static/media/bil.8583053f.jpg",
-  "static/css/main.3c61ee4f.chunk.css.map": "/jskogelin/julkalender/static/css/main.3c61ee4f.chunk.css.map",
-  "index.html": "/jskogelin/julkalender/index.html",
-  "precache-manifest.a19ea1ebdb8d0eec867dcffe700f2368.js": "/jskogelin/julkalender/precache-manifest.a19ea1ebdb8d0eec867dcffe700f2368.js",
-  "service-worker.js": "/jskogelin/julkalender/service-worker.js"
+  "main.css": "/julkalender/static/css/main.0f7300d6.chunk.css",
+  "main.js": "/julkalender/static/js/main.241957a5.chunk.js",
+  "main.js.map": "/julkalender/static/js/main.241957a5.chunk.js.map",
+  "static/js/1.2aa3550c.chunk.js": "/julkalender/static/js/1.2aa3550c.chunk.js",
+  "static/js/1.2aa3550c.chunk.js.map": "/julkalender/static/js/1.2aa3550c.chunk.js.map",
+  "runtime~main.js": "/julkalender/static/js/runtime~main.b858b702.js",
+  "runtime~main.js.map": "/julkalender/static/js/runtime~main.b858b702.js.map",
+  "static/media/App.css": "/julkalender/static/media/bil.8583053f.jpg",
+  "static/css/main.0f7300d6.chunk.css.map": "/julkalender/static/css/main.0f7300d6.chunk.css.map",
+  "index.html": "/julkalender/index.html",
+  "precache-manifest.59f4569152c5d03511ffbd8c39506b96.js": "/julkalender/precache-manifest.59f4569152c5d03511ffbd8c39506b96.js",
+  "service-worker.js": "/julkalender/service-worker.js"
 }
