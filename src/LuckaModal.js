@@ -26,6 +26,7 @@ const h1Style = {
 }
 
 const LuckaModal = (props) => {
+    const src = props.media + '?autoplay=1' + (props.portrait ? '&w=540&h=960' : '')
     return (
         <Modal
           isOpen={!!props.dagensLucka}
@@ -38,7 +39,7 @@ const LuckaModal = (props) => {
             width="100%"
             height="100%"
             style={{ 'maxHeight': '450px' }}
-            src={props.media + '?autoplay=1'}
+            src={src}
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen></iframe>

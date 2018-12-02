@@ -9,8 +9,10 @@ export default [
   {
     x: "1849px",
     y: "1351px", 
-    text: "nu är det jul igen",
-    media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
+    text: "Nästa julvärd hälsar glad första advent.",
+    media: "https://www.youtube.com/embed/VnvGBQexpKM",
+    portrait: true,
+    flippedBg: 'https://metromode.se/mmImages/46/2013/12/IMG_09622-750x5002__mmcompress-normal__.jpg'
   },
   {
     x: "1934px",
