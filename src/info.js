@@ -17,8 +17,9 @@ export default [
   {
     x: "1934px",
     y: "1686px", 
-    text: "nu är det jul igen",
-    media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
+    text: "Om måndagen känns jobbig, tänk att det kunde varit värre. Håll huvudet kallt!",
+    media: "https://www.youtube.com/embed/LdVuSvZOqXM",
+    flippedBg: "http://www4.pictures.zimbio.com/mp/T9nx-JZK9S-l.jpg"
   },
   {
     x: "-40px",
