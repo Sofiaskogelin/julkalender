@@ -24,8 +24,9 @@ export default [
   {
     x: "-40px",
     y: "209px", 
-    text: "nu är det jul igen",
-    media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
+    text: "Hoppas innerligt att snön kommer snart...",
+    media: "https://www.youtube.com/embed/WlxZUMMEjuM",
+    flippedBg: "https://media.istockphoto.com/photos/snowman-picture-id629653980?k=6&m=629653980&s=612x612&w=0&h=Av9A9tm-dYJ09dLNZdZaMl2qnj_ghhkDXO1Ogm2bgeU="
   },
   {
     x: "247px",
