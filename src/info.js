@@ -31,8 +31,9 @@ export default [
   {
     x: "247px",
     y: "926px", 
-    text: "nu är det jul igen",
-    media: "https://www.youtube.com/embed/LUjn3RpkcKY"    
+    text: "Förberedelserna fortsätter på Libbyvägen",
+    media: "https://www.youtube.com/embed/WwxySXKlkF8",
+    flippedBg: "https://cdn.pixabay.com/photo/2017/11/14/00/57/christmas-2947257_960_720.jpg"
   },
   // 6
   {
