@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/julkalender/precache-manifest.e417d6626f72bc13905c72bdd72a1a36.js"
+  "/julkalender/precache-manifest.2926d1184fe593d223c33b1d09c510eb.js"
 );
 
 workbox.clientsClaim();
