@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/julkalender/static/js/runtime~main.b858b702.js"
   },
   {
-    "revision": "a928c68bc22b1ebc678f",
-    "url": "/julkalender/static/js/main.a928c68b.chunk.js"
+    "revision": "df56fdb6fb372d9d3669",
+    "url": "/julkalender/static/js/main.df56fdb6.chunk.js"
   },
   {
     "revision": "2aa3550c7ad0cff2f51a",
     "url": "/julkalender/static/js/1.2aa3550c.chunk.js"
   },
   {
-    "revision": "a928c68bc22b1ebc678f",
+    "revision": "df56fdb6fb372d9d3669",
     "url": "/julkalender/static/css/main.fcd4d21c.chunk.css"
   },
   {
-    "revision": "012a95e12cb66617244bb2ab1f5f9d84",
+    "revision": "6bb0add30a68f48ed746fee7199aeb30",
     "url": "/julkalender/index.html"
   }
 ];
