@@ -67,13 +67,15 @@
     "x": "729px",
     "y": "1681px", 
     "text": "Kjelles dröm",
-    "media": "https://www.youtube.com/embed/fXgtAkKcE9Q"    
+    "media": "https://www.youtube.com/embed/fXgtAkKcE9Q"
+    "flippedBg": "https://www.history.com/.image/t_share/MTU3ODc4NTk5NDg5MDM3NjQx/hith-father-christmas-lights-istock_000029514386large-2.jpg"
   },
   {
     "x": "1659px",
     "y": "1133px", 
-    "text": "nu är det jul igen",
-    "media": "https://www.youtube.com/embed/LUjn3RpkcKY"    
+    "text": "Aj och oj idag är det tomt i luckan, idéerna har sinat men vi återkommer imorgon",
+    "media": "https://www.youtube.com/embed/LUjn3RpkcKY",
+    "flippedBg": "https://cdn.pixabay.com/photo/2017/11/14/00/57/christmas-2947257_960_720.jpg"
   },
   {
     "x": "2080px",
