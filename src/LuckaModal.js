@@ -1,20 +1,6 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal'
 
-const customStyle = {
-  content: {
-    top: '100px',
-    left: '50%',
-    'maxWidth': '800px',
-    'maxHeight': '450px',
-    'overflow': 'visible',
-    transform: 'translateX(-50%)',
-    'boxShadow': '0 12px 15px 0 rgba(0, 0, 0, 0.25)',
-    border: 'none',
-    padding: 0
-  }
-}
-
 const h1Style = {
   'fontFamily': 'Pacifico',
   'fontWeight': 'normal',
@@ -26,8 +12,43 @@ const h1Style = {
 }
 
 const LuckaModal = (props) => {
-    const src = props.media + '?autoplay=1' + (props.portrait ? '&w=540&h=960' : '')
+  const customStyle = {
+    content: {
+      top: '100px',
+      left: '50%',
+      'maxWidth': '800px',
+      'maxHeight': '450px',
+      'overflow': 'visible',
+      transform: 'translateX(-50%)',
+      border: 'none',
+      padding: 0,
+      background: 'transparent'
+    }
+  }
+
+  let media
+  let src
+  if (props.img) {
+    media = (
+      <img
+        src={props.media}
+        alt={props.text}/>
+    )
+  } else {
+    src = props.media + '?autoplay=1' + (props.portrait ? '&w=540&h=960' : '')
+    media = (
+      <iframe
+        width="100%"
+        height="100%"
+        style={{ 'maxHeight': '450px' }}
+        src={src}
+        frameBorder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen></iframe>
+    )
+  }
     return (
+
         <Modal
           isOpen={!!props.dagensLucka}
           onRequestClose={props.closeModal}
@@ -35,14 +56,7 @@ const LuckaModal = (props) => {
           contentLabel="Test">
 
           <h1 style={h1Style}>Lucka {props.num}</h1>
-          <iframe
-            width="100%"
-            height="100%"
-            style={{ 'maxHeight': '450px' }}
-            src={src}
-            frameBorder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen></iframe>
+          {media}
           <p>{props.text}</p>
         </Modal>
     )

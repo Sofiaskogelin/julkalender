@@ -41,6 +41,7 @@ class App extends Component {
             text={luckaInfo.text}
             number={index + 1}
             flippedBg={luckaInfo.flippedBg}
+            img={luckaInfo.img}
             media={luckaInfo.media} />
         })}
         </div>

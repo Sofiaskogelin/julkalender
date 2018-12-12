@@ -60,6 +60,7 @@ class Lucka extends Component {
           num={this.props.number}
           dagensLucka={this.state.dagensLucka}
           closeModal={this.closeModal}
+          img={this.props.img}
           media={this.props.media}/>
       </div>
     )
